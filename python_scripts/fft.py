@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from numpy.fft import fft, ifft
 
-data = pd.read_csv("../data_january_6th/max_right_movement_ExG.csv")
+data = pd.read_csv("../data/me_right_3_ExG.csv")
 x = data['ch3'].to_numpy()
 x = x[:1250]
 
