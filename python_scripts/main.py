@@ -17,6 +17,7 @@ def my_exg_function(packet):
     flags = 0
     copy = True
     track = False
+    print("Send #xG packet to Unity.")
     socket.send(message_blob, flags, copy=copy, track=track)
     time.sleep(0.125)
 
@@ -29,7 +30,7 @@ socket.bind("tcp://*:5555")
 exp_device = explorepy.Explore()
 
 # Connect to the Explore device using device bluetooth name or mac address
-exp_device.connect(device_name="Explore_855D")
+exp_device.connect(device_name="Explore_8435")
 
 # Subscribe your function to the stream publisher
 exp_device.stream_processor.subscribe(callback=my_exg_function, topic=TOPICS.raw_ExG)

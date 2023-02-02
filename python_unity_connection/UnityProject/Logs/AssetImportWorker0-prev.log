@@ -1,0 +1,1832 @@
+Unity Editor version:    2020.3.42f1 (7ade1201f527)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #153~18.04.1-Ubuntu SMP Wed Nov 30 15:47:57 UTC 2022
+Kernel version:          5.4.0-136-generic
+Architecture:            x86_64
+Available memory:        31983 MB
+Using pre-set license
+Pro License: NO
+Desktop is 3840 x 1080 @ 60 Hz
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/mentalab/Documents/GitHub/neurofeedback_vr/unity_project/UnityProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+32865
+Successfully changed project path to: /home/mentalab/Documents/GitHub/neurofeedback_vr/unity_project/UnityProject
+/home/mentalab/Documents/GitHub/neurofeedback_vr/unity_project/UnityProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 64,97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 2020.3.42f1 (7ade1201f527)
+[Subsystems] Discovering subsystems at path /home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/mentalab/Documents/GitHub/neurofeedback_vr/unity_project/UnityProject/Assets
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: Mesa DRI Intel(R) UHD Graphics 620 (WHL GT2)
+Vendor:   Intel Open Source Technology Center
+Version:  4.6 (Core Profile) Mesa 20.0.8
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_APPLE_object_purgeable GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_stat
+e_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_
+coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_
+rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_flo
+at GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM
+_multimode_draw_arrays GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -854192640
+Initialize mono
+Mono path[0] = '/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Managed'
+Mono path[1] = '/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56894
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,000981 seconds.
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 41,27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,536 seconds
+Domain Reload Profiling:
+	ReloadAssembly (536ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (435ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (127ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (194ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0,002971 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,023 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1023ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (855ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.00 seconds
+Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2470 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93,9 MB.
+System memory in use after: 93,8 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2874.
+Total: 10,249613 ms (FindLiveObjects: 0,178733 ms CreateObjectMapping: 0,117698 ms MarkObjects: 9,677287 ms  DeleteObjects: 0,275179 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/EarthSimplePlanets
+  artifactKey: Guid(ecd532899715c4bcc8ffc58f813688ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets using Guid(ecd532899715c4bcc8ffc58f813688ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b779034c357d0d81f66e464f4396a9b') in 0,004948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2,493764 seconds.
+  path: Assets/EarthSimplePlanets/Materials
+  artifactKey: Guid(f9ca0f13deb61bb4c8e562e43036e489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials using Guid(f9ca0f13deb61bb4c8e562e43036e489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3371ef0b67fd83fb674c3ee7d447227') in 0,000540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,090368 seconds.
+  path: Assets/EarthSimplePlanets/Materials/Clouds.mat
+  artifactKey: Guid(32b64dbd53532304286d6104b499821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/Clouds.mat using Guid(32b64dbd53532304286d6104b499821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a80564a3f5905cc9a0fab607d4c3668') in 0,182133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000191 seconds.
+  path: Assets/EarthSimplePlanets/Materials/EarthSimple2.mat
+  artifactKey: Guid(35978e42daa629f4cb8d64534cb875d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/EarthSimple2.mat using Guid(35978e42daa629f4cb8d64534cb875d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edeeece0e50c6d9c5bc8fd22e2ef70c9') in 0,268926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000226 seconds.
+  path: Assets/EarthSimplePlanets/Materials/EarthSimple3Night.mat
+  artifactKey: Guid(228f366186dd8e54ea3dba021fbea18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/EarthSimple3Night.mat using Guid(228f366186dd8e54ea3dba021fbea18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afc3d22b5d6a4aa20aac0716d68fa35') in 0,008625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000126 seconds.
+  path: Assets/EarthSimplePlanets/Materials/EarthSimple5Night.mat
+  artifactKey: Guid(77688573a11bd49479bcdef577b5d05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/EarthSimple5Night.mat using Guid(77688573a11bd49479bcdef577b5d05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20036edee76f74df00a8668aba9cc2c') in 0,008234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000215 seconds.
+  path: Assets/EarthSimplePlanets/Materials/EarthSimple5.mat
+  artifactKey: Guid(806fc09f37e3aa546b9c291aea169ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/EarthSimple5.mat using Guid(806fc09f37e3aa546b9c291aea169ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f2d9b410a5b5abce2ae3f8c42d5924') in 0,017226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000238 seconds.
+  path: Assets/EarthSimplePlanets/Materials/Clouds2.mat
+  artifactKey: Guid(d535379acf58e274dac3ceee6d5a1778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/Clouds2.mat using Guid(d535379acf58e274dac3ceee6d5a1778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f869e4fbfeeab8d8a48b7eae37cbb44') in 0,150695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000234 seconds.
+  path: Assets/EarthSimplePlanets/Materials/EarthSimple1Night.mat
+  artifactKey: Guid(f4e995ba0c30926438d774205187943a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/EarthSimple1Night.mat using Guid(f4e995ba0c30926438d774205187943a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58d9672348a68875473661905d63861') in 0,006185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000223 seconds.
+  path: Assets/EarthSimplePlanets/Materials/CloudsShadow.mat
+  artifactKey: Guid(735bfb95a5fbb32499f68c4a06982e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/CloudsShadow.mat using Guid(735bfb95a5fbb32499f68c4a06982e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe2d1820dceabdba5ea124112c1865b') in 0,014316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000256 seconds.
+  path: Assets/EarthSimplePlanets/Materials/Clouds2Shadow.mat
+  artifactKey: Guid(3d5d7d03f5d97c4469c0b3ad312be8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/Clouds2Shadow.mat using Guid(3d5d7d03f5d97c4469c0b3ad312be8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8734cad6541841fdb4fab0e70d687efa') in 0,014340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000173 seconds.
+  path: Assets/EarthSimplePlanets/Materials/EarthSimple3.mat
+  artifactKey: Guid(fcba40dba255b894ba22765310f3f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/EarthSimple3.mat using Guid(fcba40dba255b894ba22765310f3f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f101cb9062453579475844f7e475e4') in 0,016554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000207 seconds.
+  path: Assets/EarthSimplePlanets/Materials/EarthSimple2Night.mat
+  artifactKey: Guid(7a45d247bf5c6784ca4a5d1c29bcb73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/EarthSimple2Night.mat using Guid(7a45d247bf5c6784ca4a5d1c29bcb73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b85048485c4ff21902544cef49b90e3') in 0,007115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000246 seconds.
+  path: Assets/EarthSimplePlanets/Materials/EarthSimple4Night.mat
+  artifactKey: Guid(08aa35b6f2d913d48b8775002433dba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/EarthSimple4Night.mat using Guid(08aa35b6f2d913d48b8775002433dba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50eaab3bf78451b72222d294014b692c') in 0,008562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000183 seconds.
+  path: Assets/EarthSimplePlanets/Materials/Clouds1.mat
+  artifactKey: Guid(80e262f87107c7d46b018820a02eb2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/Clouds1.mat using Guid(80e262f87107c7d46b018820a02eb2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083b8a929f1bdbe2e3839ece64d2e818') in 0,013906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000248 seconds.
+  path: Assets/EarthSimplePlanets/Materials/EarthSimple4.mat
+  artifactKey: Guid(96c781343f85c6f4397213eab8997f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/EarthSimple4.mat using Guid(96c781343f85c6f4397213eab8997f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6113939e73712b6dd721e2fd99e076b7') in 0,017121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000283 seconds.
+  path: Assets/EarthSimplePlanets/Materials/EarthSimple1.mat
+  artifactKey: Guid(2f563af0c76d67d4d9e07e2d4f83c8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/EarthSimple1.mat using Guid(2f563af0c76d67d4d9e07e2d4f83c8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac72cfce3613257a2c4194e39cad308') in 0,017059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000263 seconds.
+  path: Assets/EarthSimplePlanets/Materials/Clouds1Shadow.mat
+  artifactKey: Guid(a86ba95804101384ca6c1ed910b245c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Materials/Clouds1Shadow.mat using Guid(a86ba95804101384ca6c1ed910b245c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e099e19ffc38015d4af83b7b414598') in 0,013520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19,978232 seconds.
+  path: Assets/EarthSimplePlanets/Prefabs/EarthCamera.prefab
+  artifactKey: Guid(d7de2a1d09c98e24c87d0b78f01c33ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Prefabs/EarthCamera.prefab using Guid(d7de2a1d09c98e24c87d0b78f01c33ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3fbe1a6b21ab5df998664a561eae3e') in 0,005991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000218 seconds.
+  path: Assets/EarthSimplePlanets/Prefabs/EarthSimple1.prefab
+  artifactKey: Guid(4cca50b46e375734586a1cf77cb87a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Prefabs/EarthSimple1.prefab using Guid(4cca50b46e375734586a1cf77cb87a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6&&, IOService::WrapCallableInFunctionTag)::{lambda()#1}>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()>, asio::io_context::basic_executor_type<std::allocator<void>, 0u> >::do_complete(void*, asio::detail::scheduler_operation*, std::error_code const&, unsigned long)
+ #9 asio::detail::scheduler::do_run_one(asio::detail::conditionally_enabled_mutex::scoped_lock&, asio::detail::scheduler_thread_info&, std::error_code const&)
+ #10 asio::detail::scheduler::run(std::error_code&)
+ #11 asio::io_context::run()
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 InitializeUnity(void*)
+ #16 g_source_get_time
+ #17 g_main_context_dispatch
+ #18 g_main_context_dispatch
+ #19 g_main_loop_run
+ #20 gtk_main
+ #21 main
+ #22 __libc_start_main
+ #23 _start
+
+Requesting import of Guid(4cca50b46e375734586a1cf77cb87a37) Importer(-1,00000000000000000000000000000000), Assets/EarthSimplePlanets/Prefabs/EarthSimple1.prefab from editor
+Resuming Guid(4cca50b46e375734586a1cf77cb87a37) Importer(-1,00000000000000000000000000000000) -> 3158862b483633fd4e98e5737495b9d8 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6&&, IOService::WrapCallableInFunctionTag)::{lambda()#1}>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()>, asio::io_context::basic_executor_type<std::allocator<void>, 0u> >::do_complete(void*, asio::detail::scheduler_operation*, std::error_code const&, unsigned long)
+ #10 asio::detail::scheduler::do_run_one(asio::detail::conditionally_enabled_mutex::scoped_lock&, asio::detail::scheduler_thread_info&, std::error_code const&)
+ #11 asio::detail::scheduler::run(std::error_code&)
+ #12 asio::io_context::run()
+ #13 IOService::Run(bool)
+ #14 RunAssetImporterV2()
+ #15 Application::InitializeProject()
+ #16 InitializeUnity(void*)
+ #17 g_source_get_time
+ #18 g_main_context_dispatch
+ #19 g_main_context_dispatch
+ #20 g_main_loop_run
+ #21 gtk_main
+ #22 main
+ #23 __libc_start_main
+ #24 _start
+
+Requesting import of Guid(4cca50b46e375734586a1cf77cb87a37) Importer(-1,00000000000000000000000000000000), Assets/EarthSimplePlanets/Prefabs/EarthSimple1.prefab from editor
+Resuming Guid(4cca50b46e375734586a1cf77cb87a37) Importer(-1,00000000000000000000000000000000) -> 3158862b483633fd4e98e5737495b9d8 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '86ec842ee3d6180a227ad66ba502b725') in 0,119807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000152 seconds.
+  path: Assets/EarthSimplePlanets/Prefabs/EarthSimple2.prefab
+  artifactKey: Guid(37c91ad7d51fe354b890bf889b39dc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Prefabs/EarthSimple2.prefab using Guid(37c91ad7d51fe354b890bf889b39dc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6&&, IOService::WrapCallableInFunctionTag)::{lambda()#1}>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()>, asio::io_context::basic_executor_type<std::allocator<void>, 0u> >::do_complete(void*, asio::detail::scheduler_operation*, std::error_code const&, unsigned long)
+ #9 asio::detail::scheduler::do_run_one(asio::detail::conditionally_enabled_mutex::scoped_lock&, asio::detail::scheduler_thread_info&, std::error_code const&)
+ #10 asio::detail::scheduler::run(std::error_code&)
+ #11 asio::io_context::run()
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 InitializeUnity(void*)
+ #16 g_source_get_time
+ #17 g_main_context_dispatch
+ #18 g_main_context_dispatch
+ #19 g_main_loop_run
+ #20 gtk_main
+ #21 main
+ #22 __libc_start_main
+ #23 _start
+
+Requesting import of Guid(37c91ad7d51fe354b890bf889b39dc77) Importer(-1,00000000000000000000000000000000), Assets/EarthSimplePlanets/Prefabs/EarthSimple2.prefab from editor
+Resuming Guid(37c91ad7d51fe354b890bf889b39dc77) Importer(-1,00000000000000000000000000000000) -> 7a2dfe4b0ece6da54b3ecad9bedddd2a 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6&&, IOService::WrapCallableInFunctionTag)::{lambda()#1}>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()>, asio::io_context::basic_executor_type<std::allocator<void>, 0u> >::do_complete(void*, asio::detail::scheduler_operation*, std::error_code const&, unsigned long)
+ #10 asio::detail::scheduler::do_run_one(asio::detail::conditionally_enabled_mutex::scoped_lock&, asio::detail::scheduler_thread_info&, std::error_code const&)
+ #11 asio::detail::scheduler::run(std::error_code&)
+ #12 asio::io_context::run()
+ #13 IOService::Run(bool)
+ #14 RunAssetImporterV2()
+ #15 Application::InitializeProject()
+ #16 InitializeUnity(void*)
+ #17 g_source_get_time
+ #18 g_main_context_dispatch
+ #19 g_main_context_dispatch
+ #20 g_main_loop_run
+ #21 gtk_main
+ #22 main
+ #23 __libc_start_main
+ #24 _start
+
+Requesting import of Guid(37c91ad7d51fe354b890bf889b39dc77) Importer(-1,00000000000000000000000000000000), Assets/EarthSimplePlanets/Prefabs/EarthSimple2.prefab from editor
+Resuming Guid(37c91ad7d51fe354b890bf889b39dc77) Importer(-1,00000000000000000000000000000000) -> 7a2dfe4b0ece6da54b3ecad9bedddd2a 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '67e538fd5655590b48846b3fbfdb9fa6') in 0,041318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000103 seconds.
+  path: Assets/EarthSimplePlanets/Prefabs/EarthSimple4.prefab
+  artifactKey: Guid(c207010087081d74e9ae127a8dafe3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Prefabs/EarthSimple4.prefab using Guid(c207010087081d74e9ae127a8dafe3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6&&, IOService::WrapCallableInFunctionTag)::{lambda()#1}>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()>, asio::io_context::basic_executor_type<std::allocator<void>, 0u> >::do_complete(void*, asio::detail::scheduler_operation*, std::error_code const&, unsigned long)
+ #9 asio::detail::scheduler::do_run_one(asio::detail::conditionally_enabled_mutex::scoped_lock&, asio::detail::scheduler_thread_info&, std::error_code const&)
+ #10 asio::detail::scheduler::run(std::error_code&)
+ #11 asio::io_context::run()
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 InitializeUnity(void*)
+ #16 g_source_get_time
+ #17 g_main_context_dispatch
+ #18 g_main_context_dispatch
+ #19 g_main_loop_run
+ #20 gtk_main
+ #21 main
+ #22 __libc_start_main
+ #23 _start
+
+Requesting import of Guid(c207010087081d74e9ae127a8dafe3f3) Importer(-1,00000000000000000000000000000000), Assets/EarthSimplePlanets/Prefabs/EarthSimple4.prefab from editor
+Resuming Guid(c207010087081d74e9ae127a8dafe3f3) Importer(-1,00000000000000000000000000000000) -> cfdfb2b1404b8d78590c082d1d6ca268 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6&&, IOService::WrapCallableInFunctionTag)::{lambda()#1}>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()>, asio::io_context::basic_executor_type<std::allocator<void>, 0u> >::do_complete(void*, asio::detail::scheduler_operation*, std::error_code const&, unsigned long)
+ #10 asio::detail::scheduler::do_run_one(asio::detail::conditionally_enabled_mutex::scoped_lock&, asio::detail::scheduler_thread_info&, std::error_code const&)
+ #11 asio::detail::scheduler::run(std::error_code&)
+ #12 asio::io_context::run()
+ #13 IOService::Run(bool)
+ #14 RunAssetImporterV2()
+ #15 Application::InitializeProject()
+ #16 InitializeUnity(void*)
+ #17 g_source_get_time
+ #18 g_main_context_dispatch
+ #19 g_main_context_dispatch
+ #20 g_main_loop_run
+ #21 gtk_main
+ #22 main
+ #23 __libc_start_main
+ #24 _start
+
+Requesting import of Guid(c207010087081d74e9ae127a8dafe3f3) Importer(-1,00000000000000000000000000000000), Assets/EarthSimplePlanets/Prefabs/EarthSimple4.prefab from editor
+Resuming Guid(c207010087081d74e9ae127a8dafe3f3) Importer(-1,00000000000000000000000000000000) -> cfdfb2b1404b8d78590c082d1d6ca268 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '8dc6c29864b583d2e54633eedfd6abb2') in 0,042214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000165 seconds.
+  path: Assets/EarthSimplePlanets/Prefabs/EarthSimple5.prefab
+  artifactKey: Guid(f395fbc56836b9741803f3f176121772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Prefabs/EarthSimple5.prefab using Guid(f395fbc56836b9741803f3f176121772) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6&&, IOService::WrapCallableInFunctionTag)::{lambda()#1}>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()>, asio::io_context::basic_executor_type<std::allocator<void>, 0u> >::do_complete(void*, asio::detail::scheduler_operation*, std::error_code const&, unsigned long)
+ #9 asio::detail::scheduler::do_run_one(asio::detail::conditionally_enabled_mutex::scoped_lock&, asio::detail::scheduler_thread_info&, std::error_code const&)
+ #10 asio::detail::scheduler::run(std::error_code&)
+ #11 asio::io_context::run()
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 InitializeUnity(void*)
+ #16 g_source_get_time
+ #17 g_main_context_dispatch
+ #18 g_main_context_dispatch
+ #19 g_main_loop_run
+ #20 gtk_main
+ #21 main
+ #22 __libc_start_main
+ #23 _start
+
+Requesting import of Guid(f395fbc56836b9741803f3f176121772) Importer(-1,00000000000000000000000000000000), Assets/EarthSimplePlanets/Prefabs/EarthSimple5.prefab from editor
+Resuming Guid(f395fbc56836b9741803f3f176121772) Importer(-1,00000000000000000000000000000000) -> b0a5c8febbde4c9b0eebc0d2c25eb715 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6&&, IOService::WrapCallableInFunctionTag)::{lambda()#1}>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()>, asio::io_context::basic_executor_type<std::allocator<void>, 0u> >::do_complete(void*, asio::detail::scheduler_operation*, std::error_code const&, unsigned long)
+ #10 asio::detail::scheduler::do_run_one(asio::detail::conditionally_enabled_mutex::scoped_lock&, asio::detail::scheduler_thread_info&, std::error_code const&)
+ #11 asio::detail::scheduler::run(std::error_code&)
+ #12 asio::io_context::run()
+ #13 IOService::Run(bool)
+ #14 RunAssetImporterV2()
+ #15 Application::InitializeProject()
+ #16 InitializeUnity(void*)
+ #17 g_source_get_time
+ #18 g_main_context_dispatch
+ #19 g_main_context_dispatch
+ #20 g_main_loop_run
+ #21 gtk_main
+ #22 main
+ #23 __libc_start_main
+ #24 _start
+
+Requesting import of Guid(f395fbc56836b9741803f3f176121772) Importer(-1,00000000000000000000000000000000), Assets/EarthSimplePlanets/Prefabs/EarthSimple5.prefab from editor
+Resuming Guid(f395fbc56836b9741803f3f176121772) Importer(-1,00000000000000000000000000000000) -> b0a5c8febbde4c9b0eebc0d2c25eb715 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: 'fc8f39817090c5c9885af03b3f7f8688') in 0,044552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000126 seconds.
+  path: Assets/EarthSimplePlanets/Prefabs/sphereSimple.obj
+  artifactKey: Guid(814508e4800cf134da5d975ad6020589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Prefabs/sphereSimple.obj using Guid(814508e4800cf134da5d975ad6020589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d683ed33f8d51280ccdb038a5a6f37') in 0,347499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000223 seconds.
+  path: Assets/EarthSimplePlanets/Prefabs/EarthSimple3.prefab
+  artifactKey: Guid(881eefc4e99aad64691e27d67462c68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Prefabs/EarthSimple3.prefab using Guid(881eefc4e99aad64691e27d67462c68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6&&, IOService::WrapCallableInFunctionTag)::{lambda()#1}>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()>, asio::io_context::basic_executor_type<std::allocator<void>, 0u> >::do_complete(void*, asio::detail::scheduler_operation*, std::error_code const&, unsigned long)
+ #9 asio::detail::scheduler::do_run_one(asio::detail::conditionally_enabled_mutex::scoped_lock&, asio::detail::scheduler_thread_info&, std::error_code const&)
+ #10 asio::detail::scheduler::run(std::error_code&)
+ #11 asio::io_context::run()
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 InitializeUnity(void*)
+ #16 g_source_get_time
+ #17 g_main_context_dispatch
+ #18 g_main_context_dispatch
+ #19 g_main_loop_run
+ #20 gtk_main
+ #21 main
+ #22 __libc_start_main
+ #23 _start
+
+Requesting import of Guid(881eefc4e99aad64691e27d67462c68c) Importer(-1,00000000000000000000000000000000), Assets/EarthSimplePlanets/Prefabs/EarthSimple3.prefab from editor
+Resuming Guid(881eefc4e99aad64691e27d67462c68c) Importer(-1,00000000000000000000000000000000) -> 1228cf08ce0095659b84dd47e88d9ef5 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6&&, IOService::WrapCallableInFunctionTag)::{lambda()#1}>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()>, asio::io_context::basic_executor_type<std::allocator<void>, 0u> >::do_complete(void*, asio::detail::scheduler_operation*, std::error_code const&, unsigned long)
+ #10 asio::detail::scheduler::do_run_one(asio::detail::conditionally_enabled_mutex::scoped_lock&, asio::detail::scheduler_thread_info&, std::error_code const&)
+ #11 asio::detail::scheduler::run(std::error_code&)
+ #12 asio::io_context::run()
+ #13 IOService::Run(bool)
+ #14 RunAssetImporterV2()
+ #15 Application::InitializeProject()
+ #16 InitializeUnity(void*)
+ #17 g_source_get_time
+ #18 g_main_context_dispatch
+ #19 g_main_context_dispatch
+ #20 g_main_loop_run
+ #21 gtk_main
+ #22 main
+ #23 __libc_start_main
+ #24 _start
+
+Requesting import of Guid(881eefc4e99aad64691e27d67462c68c) Importer(-1,00000000000000000000000000000000), Assets/EarthSimplePlanets/Prefabs/EarthSimple3.prefab from editor
+Resuming Guid(881eefc4e99aad64691e27d67462c68c) Importer(-1,00000000000000000000000000000000) -> 1228cf08ce0095659b84dd47e88d9ef5 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '0f7bd3c0cb83c12971cf04410816fe79') in 0,051562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 220,511382 seconds.
+  path: Assets/EarthSimplePlanets/Shaders/DisplayNightEarthTexture.shader
+  artifactKey: Guid(31f98f795f2e37f45bacf5ad2ac2a578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EarthSimplePlanets/Shaders/DisplayNightEarthTexture.shader using Guid(31f98f795f2e37f45bacf5ad2ac2a578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0195a64cc4c852f5fe3ff27eea05d5') in 0,001442 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,972 seconds
+Domain Reload Profiling:
+	ReloadAssembly (972ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (820ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2357 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91,9 MB.
+System memory in use after: 91,6 MB.
+
+Unloading 105 unused Assets to reduce memory usage. Loaded Objects now: 2874.
+Total: 9,911257 ms (FindLiveObjects: 0,184665 ms CreateObjectMapping: 0,071910 ms MarkObjects: 9,418136 ms  DeleteObjects: 0,235626 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003137 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (968ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (819ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (356ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2357 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91,6 MB.
+System memory in use after: 91,6 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2877.
+Total: 10,108738 ms (FindLiveObjects: 0,231790 ms CreateObjectMapping: 0,090022 ms MarkObjects: 9,605489 ms  DeleteObjects: 0,180212 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003894 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,521 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1522ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1304ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (420ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (570ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2359 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91,7 MB.
+System memory in use after: 91,7 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2882.
+Total: 14,830511 ms (FindLiveObjects: 0,263928 ms CreateObjectMapping: 0,123149 ms MarkObjects: 14,191705 ms  DeleteObjects: 0,250286 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 551,942763 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets
+  artifactKey: Guid(b89315214e2ec4b3f8a6a40053e76975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets using Guid(b89315214e2ec4b3f8a6a40053e76975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7534682367258801927ef4a7ab337621') in 0,004081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2,469566 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes
+  artifactKey: Guid(5639a44d929d2134591923ab3c7b0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes using Guid(5639a44d929d2134591923ab3c7b0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d1dad923b361504b0ff37a27e261bf') in 0,001577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,060867 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxEarthProDemo.mat
+  artifactKey: Guid(4b10d730b3896e9458dd8aca903debb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxEarthProDemo.mat using Guid(4b10d730b3896e9458dd8aca903debb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc859e334ecbc825faf3d674793a695') in 0,315129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000236 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_ocean.mat
+  artifactKey: Guid(a5d39648377a737419eaed91af87769f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_ocean.mat using Guid(a5d39648377a737419eaed91af87769f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c8848c2109ce023094cc3775f2f889') in 0,136299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000147 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_earthfar.mat
+  artifactKey: Guid(d6ee7bd7b98e3e541a4f5561d7198072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_earthfar.mat using Guid(d6ee7bd7b98e3e541a4f5561d7198072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5121466f1bc4670d0a908cb789e980f1') in 0,123791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000238 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1.mat
+  artifactKey: Guid(378bd1206205764499a393a2c4eb1205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1.mat using Guid(378bd1206205764499a393a2c4eb1205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb974c8323ca26219d651f7f61050fc') in 0,124213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000221 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_europe_night.mat
+  artifactKey: Guid(0f4edca89ef8aac4e9ef8231e680124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_europe_night.mat using Guid(0f4edca89ef8aac4e9ef8231e680124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52f55d830a0e6b4716dd58ba4bc6c1b') in 0,127607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000240 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_jupiter.mat
+  artifactKey: Guid(360289ae609262c4bb604b3487c6db93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_jupiter.mat using Guid(360289ae609262c4bb604b3487c6db93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568f1eea938c0bfa210492adb03df731') in 0,122465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000231 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_europe.mat
+  artifactKey: Guid(e8bc3c3fbc7bbe849bdd0a3f5c7165f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_europe.mat using Guid(e8bc3c3fbc7bbe849bdd0a3f5c7165f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ef126e6d8a88d588015fcd89c643d2') in 0,128267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000145 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_mars2.mat
+  artifactKey: Guid(e4dd61a45527f2b4299e7fa072861256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_mars2.mat using Guid(e4dd61a45527f2b4299e7fa072861256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97760c2fdd2ce7ea1c300d3dff76fa0e') in 0,128009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000250 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_usa.mat
+  artifactKey: Guid(7c79b0cb2ecdd104e8afe8869884ef61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_usa.mat using Guid(7c79b0cb2ecdd104e8afe8869884ef61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fb4a1d992c5fb758c635ac60b8b86b') in 0,125727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000236 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_moon_earth.mat
+  artifactKey: Guid(39770b3bcab0abd4189eb3ea4b27f726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_moon_earth.mat using Guid(39770b3bcab0abd4189eb3ea4b27f726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f7db93672d090fc49102ad955d0cea') in 0,126820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000187 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_starsonly.mat
+  artifactKey: Guid(d8c0d4010f9416945912d97b9e581cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_starsonly.mat using Guid(d8c0d4010f9416945912d97b9e581cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599915d005fb2f3d04050aba33ebea47') in 0,124305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000237 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_asia.mat
+  artifactKey: Guid(27c0cce60d93adc4aa3fba77995f9921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_asia.mat using Guid(27c0cce60d93adc4aa3fba77995f9921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861a464f697981ae4789793328456ce8') in 0,126766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000219 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_usa_night.mat
+  artifactKey: Guid(579e145d6a6cd4247985ca7a6f1c9c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_usa_night.mat using Guid(579e145d6a6cd4247985ca7a6f1c9c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06237c7c814d99c5b4c5884d80fd1d8e') in 0,126315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000162 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_jupiter1.mat
+  artifactKey: Guid(9af527704df03ae4794562070544c949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_jupiter1.mat using Guid(9af527704df03ae4794562070544c949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63aceb6bb02aba883583b3eb72de2238') in 0,126624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000266 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_inbetween_moonearth.mat
+  artifactKey: Guid(03a88ece3c8d8dc44a549fd6327b6ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_inbetween_moonearth.mat using Guid(03a88ece3c8d8dc44a549fd6327b6ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a506a0721de5a211c1b4ad172d6ce9bc') in 0,125405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000160 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_mars3.mat
+  artifactKey: Guid(11775e6bf4b0e9d47b44f3a1e06e2a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_mars3.mat using Guid(11775e6bf4b0e9d47b44f3a1e06e2a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ac404f96dda58ac702bd3f77a758cd') in 0,127101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000251 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_moon_earth2.mat
+  artifactKey: Guid(cd0c44682a420a34fb0588e942f201e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_moon_earth2.mat using Guid(cd0c44682a420a34fb0588e942f201e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54470d0786379c8353d9c50e51cbca1') in 0,126502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000185 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_newzealand.mat
+  artifactKey: Guid(b4b1d961c66f8e24480f74822a9ae649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_newzealand.mat using Guid(b4b1d961c66f8e24480f74822a9ae649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb3097cf4596eb036a9f0bf6e145338') in 0,125429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000223 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_moon1.mat
+  artifactKey: Guid(e1af57997be70e34aa1fc533b8ee3c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_moon1.mat using Guid(e1af57997be70e34aa1fc533b8ee3c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863e33541607f03212ce77bf0a027706') in 0,129715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000189 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_usa_far.mat
+  artifactKey: Guid(cd490d4feb37a9f40b6e853477c2c2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_usa_far.mat using Guid(cd490d4feb37a9f40b6e853477c2c2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6e400a13b1be2dfc31909202cc4045') in 0,125148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000233 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_mars1.mat
+  artifactKey: Guid(edad4bfe0df85fd4bbf8671798717e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_mars1.mat using Guid(edad4bfe0df85fd4bbf8671798717e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9b847b5e0ef8ec3f80b36a16a8686a') in 0,699706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000193 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_earth1.mat
+  artifactKey: Guid(c4afd13360d274644bb30acba0411488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_earth1.mat using Guid(c4afd13360d274644bb30acba0411488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d0f631119f2ebc88fbe3d3aedca330') in 0,126002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000263 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_jupiter2.mat
+  artifactKey: Guid(1b9f8c43104e75a46becdc2d42ffbd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/skyboxes/skyboxv1_jupiter2.mat using Guid(1b9f8c43104e75a46becdc2d42ffbd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fee94e9733cdb92ef1cd618d55aada') in 0,126167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,526623 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_ocean/earth001.png
+  artifactKey: Guid(b6b0ceb71b4d15b4ca2064603c107b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_ocean/earth001.png using Guid(b6b0ceb71b4d15b4ca2064603c107b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51656b9b7fce788e4dbb819582e4192c') in 0,030114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000282 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_ocean/earth005.png
+  artifactKey: Guid(577bc81e65e616444a4230b4ba6725ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_ocean/earth005.png using Guid(577bc81e65e616444a4230b4ba6725ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587507d4bbcfc5a835dc720b0c2151ed') in 0,027724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000297 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_ocean/earth006.png
+  artifactKey: Guid(a448e4319c4bd3940a3542486d7ec2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_ocean/earth006.png using Guid(a448e4319c4bd3940a3542486d7ec2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c936c09c7393f7573864aca79100558') in 0,027590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000253 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_ocean/earth002.png
+  artifactKey: Guid(662c6ab797dfbae4c9838fcb303d75b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_ocean/earth002.png using Guid(662c6ab797dfbae4c9838fcb303d75b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ef97891418f51eb05179a57f417ec4') in 0,028733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000244 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_ocean/earth003.png
+  artifactKey: Guid(2b07a6fdb0e3e7347911e03f857552e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_ocean/earth003.png using Guid(2b07a6fdb0e3e7347911e03f857552e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ea03dcbf82aef49a304d107f2cb769') in 0,027142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000206 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_ocean/earth004.png
+  artifactKey: Guid(3ca7637fd1a61fd4eb82f8c631fe8a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_ocean/earth004.png using Guid(3ca7637fd1a61fd4eb82f8c631fe8a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0c98d9f8e4ab6a54b9e54e43e2f429') in 0,029420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3,935430 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_newzealand/earth007000.png
+  artifactKey: Guid(abbc2913ea54095429661d2ebf90795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_newzealand/earth007000.png using Guid(abbc2913ea54095429661d2ebf90795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df49606f843fa4dd6866da4ce269d57') in 0,040299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000222 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_newzealand/earth007005.png
+  artifactKey: Guid(38bf3c58f354a0e4996212f9a2fad8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_newzealand/earth007005.png using Guid(38bf3c58f354a0e4996212f9a2fad8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e43a319573ebdd5726eb5f335e138b') in 0,029558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000264 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_newzealand/earth007004.png
+  artifactKey: Guid(38bc148937fbb484297fce740a8b2e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_newzealand/earth007004.png using Guid(38bc148937fbb484297fce740a8b2e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6fec454a54d72c5d69dbd1c4c4307a') in 0,027941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000197 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_newzealand/earth007003.png
+  artifactKey: Guid(1e82fa775cff0b74a874c8d78075bd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_newzealand/earth007003.png using Guid(1e82fa775cff0b74a874c8d78075bd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ceebb0c5b859bf7f6afc1963f7ba4e4') in 0,028646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000298 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_newzealand/earth007001.png
+  artifactKey: Guid(f1a48fce5b7d2874abf7a310846fa0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_newzealand/earth007001.png using Guid(f1a48fce5b7d2874abf7a310846fa0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e3fcc5c18050961606afcfda7ebf8f') in 0,030147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000216 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_newzealand/earth007002.png
+  artifactKey: Guid(0d3e959d6dacc644aa9175b2897e0720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_newzealand/earth007002.png using Guid(0d3e959d6dacc644aa9175b2897e0720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833c256fde31c0b6af33463db1de33f4') in 0,028603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2,360753 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_jupiter2/jupiter3001.png
+  artifactKey: Guid(3b603e7b626a33645a6957b43945f456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_jupiter2/jupiter3001.png using Guid(3b603e7b626a33645a6957b43945f456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47c6e02693c02e2a7f5cbb7d6c7c875') in 0,022664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000225 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_jupiter2/jupiter3005.png
+  artifactKey: Guid(11147fc8a8190d44f87e3fe48afb32c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_jupiter2/jupiter3005.png using Guid(11147fc8a8190d44f87e3fe48afb32c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5221025d62a28c9b4a54d793c702eb') in 0,022442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000244 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_jupiter2/jupiter3006.png
+  artifactKey: Guid(b87d292d6fe9b0e44b370a5d6d447841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_jupiter2/jupiter3006.png using Guid(b87d292d6fe9b0e44b370a5d6d447841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cb90ce7a2d1e5772397bcddd3d98e3') in 0,025363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000212 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_jupiter2/jupiter3003.png
+  artifactKey: Guid(80e1e5359b9be8c489f5c53c7023ab81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_jupiter2/jupiter3003.png using Guid(80e1e5359b9be8c489f5c53c7023ab81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8e73e43f567b8799fe89938301a640') in 0,029504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000220 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_jupiter2/jupiter3002.png
+  artifactKey: Guid(c4393ee2211fb244abd9b72131125a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_jupiter2/jupiter3002.png using Guid(c4393ee2211fb244abd9b72131125a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629069498e5fb2b4e954f2b937b4eaf6') in 0,028868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000200 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_jupiter2/jupiter3004.png
+  artifactKey: Guid(e35cafec3b8870c4dba1c6ab38f1978b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_jupiter2/jupiter3004.png using Guid(e35cafec3b8870c4dba1c6ab38f1978b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8090c46a86e4091d684079fb3f2aaf96') in 0,028907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12,035322 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skybox_EarthProDemo/black.png
+  artifactKey: Guid(67229ef5567344140af0330ab0428e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skybox_EarthProDemo/black.png using Guid(67229ef5567344140af0330ab0428e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78875c89e7d5bb7856e9a1c8ad789f05') in 0,004773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000217 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skybox_EarthProDemo/india005.png
+  artifactKey: Guid(defdcbac06f72e242b00dea5930448a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skybox_EarthProDemo/india005.png using Guid(defdcbac06f72e242b00dea5930448a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f97bb77b2fb6c1ad9162c4ba757098') in 0,022945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000197 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skybox_EarthProDemo/india002.png
+  artifactKey: Guid(5738ed9c8cc132f498a932252f0bc519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skybox_EarthProDemo/india002.png using Guid(5738ed9c8cc132f498a932252f0bc519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812b96236b97b31a19ab203c1d7d751b') in 0,017242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000204 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skybox_EarthProDemo/india004.png
+  artifactKey: Guid(a5e44093c6205d04fbcebe13260038e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skybox_EarthProDemo/india004.png using Guid(a5e44093c6205d04fbcebe13260038e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00572d04c132b832097eb4956469a0d3') in 0,015169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000175 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skybox_EarthProDemo/india000.png
+  artifactKey: Guid(a0572e5670c87504d9c1e1d39955cc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skybox_EarthProDemo/india000.png using Guid(a0572e5670c87504d9c1e1d39955cc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd79aaac02038de118a3b7ff4b313c03') in 0,021254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000204 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skybox_EarthProDemo/india003.png
+  artifactKey: Guid(c5a7647a009f60d41bbfb731df9d1cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skybox_EarthProDemo/india003.png using Guid(c5a7647a009f60d41bbfb731df9d1cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c56d296c380795dd588280550554df') in 0,020108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,558277 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_asia/earth000001.png
+  artifactKey: Guid(62329232953d4204ba1150dc173206d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_asia/earth000001.png using Guid(62329232953d4204ba1150dc173206d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bc7430fa7a1134d6a8408b533ba92d') in 0,024283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000215 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_asia/earth000005.png
+  artifactKey: Guid(f10e6a28fe1796244b5873e725d4549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_asia/earth000005.png using Guid(f10e6a28fe1796244b5873e725d4549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f957575fb2ac73d994b1ef1cce9887dc') in 0,028594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000241 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_asia/earth000004.png
+  artifactKey: Guid(661ab69b35341cd478bd407c74b41083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_asia/earth000004.png using Guid(661ab69b35341cd478bd407c74b41083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2546e611b705a5ee751df9b858bd2367') in 0,027415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000266 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_asia/earth000003.png
+  artifactKey: Guid(a05bee4f5751126469ab04d2f22c5bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_asia/earth000003.png using Guid(a05bee4f5751126469ab04d2f22c5bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3665ace1e8eaf66da60fa86f349777d8') in 0,028002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000291 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_asia/earth000002.png
+  artifactKey: Guid(fcb711c4d1beea147917f9edb5f9b9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_asia/earth000002.png using Guid(fcb711c4d1beea147917f9edb5f9b9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3839efd23863f1caaec416aa0157645c') in 0,029093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000238 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_asia/earth000006.png
+  artifactKey: Guid(8e9a8acde6ebe3047b74c85fb2b4af54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1_asia/earth000006.png using Guid(8e9a8acde6ebe3047b74c85fb2b4af54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c5e9fee58469b06cb67366e0f396e7') in 0,031528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65,142352 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png
+  artifactKey: Guid(71ebafeef3c03457483266a33ab2b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png using Guid(71ebafeef3c03457483266a33ab2b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3faf33e5cbbf84790f7aa3ab48c2da5') in 0,016059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000274 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonPointed-Top.png
+  artifactKey: Guid(eed45a33cd08446c8b88325cf82fc52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonPointed-Top.png using Guid(eed45a33cd08446c8b88325cf82fc52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7335a1855b0b8988b5d2c0969d6f7558') in 0,007684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000150 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonPointed-TopWithBorder.png
+  artifactKey: Guid(4b2a04fdbe0ef4d8da8f90eaca817cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonPointed-TopWithBorder.png using Guid(4b2a04fdbe0ef4d8da8f90eaca817cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbde4d14b28d3255e86e685040bb454') in 0,007801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000223 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-TopWithBorder.png
+  artifactKey: Guid(a9716c16a44a94eed9b5c90fbf4d9bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-TopWithBorder.png using Guid(a9716c16a44a94eed9b5c90fbf4d9bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6e94f32b0140acdee629d6fded93b7') in 0,006106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000159 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Capsule.png
+  artifactKey: Guid(bd3cb4af8406d4436a2ae8c2aafe1f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Capsule.png using Guid(bd3cb4af8406d4436a2ae8c2aafe1f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32a977a67040b656dfad80fb14cc640') in 0,006734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000244 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-Top.png
+  artifactKey: Guid(16037dbd798344f57a526d53d48f5ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-Top.png using Guid(16037dbd798344f57a526d53d48f5ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9b3613e0fd518240554571e165e235') in 0,007424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000265 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png
+  artifactKey: Guid(87aaca0a643d54397ba969dab4fc8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png using Guid(87aaca0a643d54397ba969dab4fc8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891f59668ab4e5418accccc6a09d484a') in 0,005808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000247 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-SlicedWithBorder.png
+  artifactKey: Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-SlicedWithBorder.png using Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7194c66d0037b5dbb0d6dea6c17dc79d') in 0,009091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000207 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png
+  artifactKey: Guid(48e93eef0688c4a259cb0eddcd8661f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png using Guid(48e93eef0688c4a259cb0eddcd8661f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645240d969c69a72ae933dfd292a129f') in 0,005907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000263 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png
+  artifactKey: Guid(ebe73ca9363db456bacf42c025bb4847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png using Guid(ebe73ca9363db456bacf42c025bb4847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad2c3747e9f51ef52184415258ef0ca') in 0,006992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000152 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleWithBorder.png
+  artifactKey: Guid(4adeaf2d2b1c7417e89f026626d8264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleWithBorder.png using Guid(4adeaf2d2b1c7417e89f026626d8264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1050e9e698004ad6970bcefe8e2e9a') in 0,008692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000237 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/SquareWithBorder.png
+  artifactKey: Guid(db750325989564987a34393247d883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/SquareWithBorder.png using Guid(db750325989564987a34393247d883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0789b9872948f483b3d16763df60b15') in 0,006371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000250 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamond.png
+  artifactKey: Guid(045b15ec09bba42448d89db77fa6f20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamond.png using Guid(045b15ec09bba42448d89db77fa6f20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07713e4386965a34dcf7909bdd8a7db') in 0,007062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000238 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CapsuleWithBorder.png
+  artifactKey: Guid(34587324d412940a79d530020c957dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CapsuleWithBorder.png using Guid(34587324d412940a79d530020c957dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7fdc24bf240b0fefd95610ff479433') in 0,007343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000248 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamondWithBorder.png
+  artifactKey: Guid(0d267bc78a0864eb48358689b29ed20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamondWithBorder.png using Guid(0d267bc78a0864eb48358689b29ed20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805f6483728cb945a049df76cb376698') in 0,006434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6,108556 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png
+  artifactKey: Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png using Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2c73182293868c9a67f9feed96b6b7') in 0,010470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000152 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png
+  artifactKey: Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png using Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aba1e9737a90e20a440f80c86f57ad2') in 0,004242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000153 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail@2x.png
+  artifactKey: Guid(144aa74618b85974a9a50f612c2fa8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail@2x.png using Guid(144aa74618b85974a9a50f612c2fa8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613c901349005a7b21ec33ad571bec49') in 0,006163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000163 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshe.png
+  artifactKey: Guid(a04ecc9d5e12d5d449077414eb86635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshe.png using Guid(a04ecc9d5e12d5d449077414eb86635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078c4532c98f9bf13324111817e32a47') in 0,006514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000234 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuhoshe.png
+  artifactKey: Guid(8325d4ef0a6eb3d43952aff8a06d9f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuhoshe.png using Guid(8325d4ef0a6eb3d43952aff8a06d9f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5da5c55f4ee9c965f81dd6e465a73ad') in 0,006450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000194 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuhoshechristmas.png
+  artifactKey: Guid(372e7b39fc8f34549ac25d8757965a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuhoshechristmas.png using Guid(372e7b39fc8f34549ac25d8757965a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee27c909b4db995757d67a73ebf0c2c3') in 0,009260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000132 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshechristmas.png
+  artifactKey: Guid(ec03f79379868c642b48ae5ddc821b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshechristmas.png using Guid(ec03f79379868c642b48ae5ddc821b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b205c26e0fc20af7f42e36b6198a4b9') in 0,007773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000232 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshechristmas.png
+  artifactKey: Guid(9c0d6ec706e01ce448aea81584af092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshechristmas.png using Guid(9c0d6ec706e01ce448aea81584af092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe01420460df9098f0f55db89e7433b') in 0,007787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000135 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuhochristmas.png
+  artifactKey: Guid(c887ed2a931c29040bc544cd8c546e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuhochristmas.png using Guid(c887ed2a931c29040bc544cd8c546e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d92c75dbbcbbdda577cc12548b67ca9') in 0,007976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000227 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png
+  artifactKey: Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png using Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab148aa24d395c591924d41c93fe8add') in 0,004862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000226 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhochristmas.png
+  artifactKey: Guid(fd098fb4cf57bad419701c802e442b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhochristmas.png using Guid(fd098fb4cf57bad419701c802e442b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d09d14da5cc69af85f3d1876210135') in 0,007832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000283 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuho.png
+  artifactKey: Guid(3a0c527d7f890d64a9b56b086e6e766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuho.png using Guid(3a0c527d7f890d64a9b56b086e6e766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcc7077124eb8b6912a85d9af711ce4') in 0,008930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000274 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuho.png
+  artifactKey: Guid(e5600378dd761e64d9423790c482bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuho.png using Guid(e5600378dd761e64d9423790c482bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66de5cf1e9c7d4d20690b6e4bfc926a7') in 0,006820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000293 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuho.png
+  artifactKey: Guid(13e7e6fe43a8aa049bcd610bbc1f5ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_expertbuho.png using Guid(13e7e6fe43a8aa049bcd610bbc1f5ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e8bb5fd4bca7b7de462c1defe117e9') in 0,008347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000362 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png
+  artifactKey: Guid(ddf2e76e8a1f88f46ae1e42277850b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png using Guid(ddf2e76e8a1f88f46ae1e42277850b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6d9a1abb7528d736995c56ffbc810a') in 0,005875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000186 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhochristmas.png
+  artifactKey: Guid(70632ddfe8e71b04b8f90ef7e29a9e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhochristmas.png using Guid(70632ddfe8e71b04b8f90ef7e29a9e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab808e129afd2b3a2121f9ff1d297d1') in 0,008964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000217 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png
+  artifactKey: Guid(f09eae8c0ea04254b90c5386a034a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png using Guid(f09eae8c0ea04254b90c5386a034a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e297375fee1dedf6e0a49737653aee6c') in 0,005337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000161 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshe.png
+  artifactKey: Guid(dae33700bd23f76409a80bf78fdb8a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshe.png using Guid(dae33700bd23f76409a80bf78fdb8a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e02a67d5b9426e736d7c99a44a61a2d') in 0,010860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82,061315 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/scenes
+  artifactKey: Guid(2c18a707d3dcbf04ea65180286862fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/scenes using Guid(2c18a707d3dcbf04ea65180286862fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503e1ccfafe22157fe0aa5e7adf15214') in 0,000938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19,707824 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/scenes/skyboxspaceFreeexample.unity
+  artifactKey: Guid(0c6561a5456c3db4abdc556f5241465c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/scenes/skyboxspaceFreeexample.unity using Guid(0c6561a5456c3db4abdc556f5241465c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef63f1011e65633d2de2f7054a7756b') in 0,001320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6,447289 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/scenes/skyboxEarthProDemo.unity
+  artifactKey: Guid(a2dc8f4ed1902e14b8efcc6fb7982ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/scenes/skyboxEarthProDemo.unity using Guid(a2dc8f4ed1902e14b8efcc6fb7982ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a08c263aeb31656d52075defe0ce573') in 0,001878 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002919 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1090ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (921ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2359 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92,0 MB.
+System memory in use after: 92,0 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2903.
+Total: 10,913937 ms (FindLiveObjects: 0,203959 ms CreateObjectMapping: 0,074397 ms MarkObjects: 10,498640 ms  DeleteObjects: 0,135627 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003208 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,974 seconds
+Domain Reload Profiling:
+	ReloadAssembly (975ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (823ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2359 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91,9 MB.
+System memory in use after: 91,9 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2906.
+Total: 10,303789 ms (FindLiveObjects: 0,195798 ms CreateObjectMapping: 0,098400 ms MarkObjects: 9,843998 ms  DeleteObjects: 0,164402 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 464,274839 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1/earth006000.png
+  artifactKey: Guid(7ef1aae21acea484dae123bff975b58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1/earth006000.png using Guid(7ef1aae21acea484dae123bff975b58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156da9bc0254b42e40f0dd351ef176cb') in 0,057748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000170 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1/earth006003.png
+  artifactKey: Guid(9b3beaaee903c554da34174e6ec96100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1/earth006003.png using Guid(9b3beaaee903c554da34174e6ec96100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f0ab45246c44f3f0e13f3c0006e9c3') in 0,026785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000203 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1/earth006002.png
+  artifactKey: Guid(a4b04b05c29301b49a48c1e22e7d0f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1/earth006002.png using Guid(a4b04b05c29301b49a48c1e22e7d0f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65459668c70837ba8fbd725c0081d8e') in 0,025850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000203 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1/earth006005.png
+  artifactKey: Guid(a5af059a39b2360409279c61a96747ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1/earth006005.png using Guid(a5af059a39b2360409279c61a96747ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e7fa3f46f664cdc4a042770327a6a7') in 0,027996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000218 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1/earth006004.png
+  artifactKey: Guid(a41ff075f9acf684fb771b2b60f007dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1/earth006004.png using Guid(a41ff075f9acf684fb771b2b60f007dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35efe37c5711ced285c499c501fa0521') in 0,027689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000194 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1/earth006001.png
+  artifactKey: Guid(6e0ddd4a632a124468aacf8bd32e0814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1/earth006001.png using Guid(6e0ddd4a632a124468aacf8bd32e0814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a795a0ad38d92c6f9337af321c635ce') in 0,026973 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002842 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,940 seconds
+Domain Reload Profiling:
+	ReloadAssembly (940ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (791ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2359 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92,0 MB.
+System memory in use after: 92,0 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2909.
+Total: 9,993739 ms (FindLiveObjects: 0,191778 ms CreateObjectMapping: 0,093494 ms MarkObjects: 9,554708 ms  DeleteObjects: 0,152462 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 370,430732 seconds.
+  path: Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1
+  artifactKey: Guid(afe7ac01cf4c8ed48bbc21bc7748a9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stagit/SkyboxEarthPlanets/textures/skyboxv1 using Guid(afe7ac01cf4c8ed48bbc21bc7748a9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d913fdc191af592a2e2aeb990d033f') in 0,004296 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (990ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (837ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2360 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92,1 MB.
+System memory in use after: 92,0 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2913.
+Total: 9,764162 ms (FindLiveObjects: 0,187586 ms CreateObjectMapping: 0,071026 ms MarkObjects: 9,355492 ms  DeleteObjects: 0,149234 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 223,535798 seconds.
+  path: Assets/moveBox.cs
+  artifactKey: Guid(8135dde6f451c1c9689d193c8edbb939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moveBox.cs using Guid(8135dde6f451c1c9689d193c8edbb939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504070cf845de9804a9187c064592124') in 0,003772 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003313 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,050 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1051ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (898ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2360 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92,1 MB.
+System memory in use after: 92,0 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2916.
+Total: 10,000878 ms (FindLiveObjects: 0,189202 ms CreateObjectMapping: 0,072580 ms MarkObjects: 9,576327 ms  DeleteObjects: 0,161698 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 264,274128 seconds.
+  path: Assets/moveBox.cs
+  artifactKey: Guid(8135dde6f451c1c9689d193c8edbb939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moveBox.cs using Guid(8135dde6f451c1c9689d193c8edbb939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728b67114d0429084f675fabfb4dc2e5') in 0,003424 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,939 seconds
+Domain Reload Profiling:
+	ReloadAssembly (939ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (790ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2360 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92,1 MB.
+System memory in use after: 92,0 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2919.
+Total: 9,828413 ms (FindLiveObjects: 0,193960 ms CreateObjectMapping: 0,076794 ms MarkObjects: 9,397811 ms  DeleteObjects: 0,158808 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 178,349570 seconds.
+  path: Assets/moveBox.cs
+  artifactKey: Guid(8135dde6f451c1c9689d193c8edbb939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moveBox.cs using Guid(8135dde6f451c1c9689d193c8edbb939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c151c7b1d8f96f27c4f34ee7e91025c') in 0,003965 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,002853 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (978ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (829ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (359ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2360 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92,0 MB.
+System memory in use after: 91,9 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2922.
+Total: 9,788402 ms (FindLiveObjects: 0,191953 ms CreateObjectMapping: 0,076858 ms MarkObjects: 9,352944 ms  DeleteObjects: 0,165649 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54,000691 seconds.
+  path: Assets/moveBox.cs
+  artifactKey: Guid(8135dde6f451c1c9689d193c8edbb939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moveBox.cs using Guid(8135dde6f451c1c9689d193c8edbb939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759faf5147fb21c776a08b46206297e9') in 0,003411 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003082 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,979 seconds
+Domain Reload Profiling:
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (831ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2360 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92,1 MB.
+System memory in use after: 92,0 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2925.
+Total: 9,809242 ms (FindLiveObjects: 0,191570 ms CreateObjectMapping: 0,075232 ms MarkObjects: 9,368717 ms  DeleteObjects: 0,172675 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22,595533 seconds.
+  path: Assets/moveBox.cs
+  artifactKey: Guid(8135dde6f451c1c9689d193c8edbb939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moveBox.cs using Guid(8135dde6f451c1c9689d193c8edbb939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632f73c9e3f4530b9dd7bd8dec06d49e') in 0,003460 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003544 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (986ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (831ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2360 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92,1 MB.
+System memory in use after: 92,0 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2928.
+Total: 10,013518 ms (FindLiveObjects: 0,194315 ms CreateObjectMapping: 0,092327 ms MarkObjects: 9,555765 ms  DeleteObjects: 0,169925 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

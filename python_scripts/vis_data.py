@@ -2,16 +2,16 @@ import os
 import numpy as np
 import pandas as pd
 import mne
-from numpy.fft import fft, ifft
+from numpy.fft import fft
 from scipy.ndimage import gaussian_filter1d
 import matplotlib.pyplot as plt
 
 s_rate = 250
-data = pd.read_csv("../data/me_right_3_ExG.csv")
-fft_1 = data[['ch1']].to_numpy()
+data = pd.read_csv("c_ExG.csv")
+fft_1 = data[['ch4']].to_numpy()
 n_point = fft_1.shape[0]
 freq = s_rate * np.arange(int(n_point / 2)) / n_point
-x = data[['ch2']].to_numpy()
+x = data[['ch4']].to_numpy()
 ch_names = ['CH 1', 'CH 2', 'CH 3', 'CH 4']
 #
 
