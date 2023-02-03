@@ -68,7 +68,6 @@ ScriptsOnlyBuild:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
     Unity.XR.OpenXR.Editor.dll:
-    - UnityEditor.XR.OpenXR.OpenXREditorSettings
     - UnityEditor.XR.OpenXR.OpenXRPackageSettings
     Unity.XR.OpenXR.Features.ConformanceAutomation.dll:
     - UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature
@@ -165,101 +164,101 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1686}
     - Class: 114
-      Script: {instanceID: 1692}
+      Script: {instanceID: 1708}
     - Class: 114
-      Script: {instanceID: 1848}
+      Script: {instanceID: 1864}
     - Class: 114
-      Script: {instanceID: 1970}
+      Script: {instanceID: 1986}
     - Class: 114
-      Script: {instanceID: 2020}
+      Script: {instanceID: 2036}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2548}
     - Class: 114
-      Script: {instanceID: 2640}
+      Script: {instanceID: 2656}
     - Class: 114
-      Script: {instanceID: 3418}
+      Script: {instanceID: 3434}
     - Class: 114
-      Script: {instanceID: 3506}
+      Script: {instanceID: 3522}
     - Class: 114
-      Script: {instanceID: 3576}
+      Script: {instanceID: 3592}
     - Class: 114
-      Script: {instanceID: 3600}
+      Script: {instanceID: 3616}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3684}
     - Class: 114
-      Script: {instanceID: 3776}
+      Script: {instanceID: 3792}
     - Class: 114
-      Script: {instanceID: 3794}
+      Script: {instanceID: 3810}
     - Class: 114
-      Script: {instanceID: 3926}
+      Script: {instanceID: 3942}
     - Class: 114
-      Script: {instanceID: 4056}
+      Script: {instanceID: 4072}
     - Class: 114
-      Script: {instanceID: 4062}
+      Script: {instanceID: 4078}
     - Class: 114
-      Script: {instanceID: 4146}
+      Script: {instanceID: 4162}
     - Class: 114
-      Script: {instanceID: 4264}
+      Script: {instanceID: 4280}
     - Class: 114
-      Script: {instanceID: 4268}
+      Script: {instanceID: 4284}
     - Class: 114
-      Script: {instanceID: 4406}
+      Script: {instanceID: 4422}
     - Class: 114
-      Script: {instanceID: 4724}
+      Script: {instanceID: 4740}
     - Class: 114
-      Script: {instanceID: 5602}
+      Script: {instanceID: 5618}
     - Class: 114
-      Script: {instanceID: 5620}
+      Script: {instanceID: 5636}
     - Class: 114
-      Script: {instanceID: 5688}
+      Script: {instanceID: 5704}
     - Class: 114
-      Script: {instanceID: 5914}
+      Script: {instanceID: 5930}
     - Class: 114
-      Script: {instanceID: 5916}
+      Script: {instanceID: 5932}
     - Class: 114
-      Script: {instanceID: 5938}
+      Script: {instanceID: 5954}
     - Class: 114
-      Script: {instanceID: 6218}
+      Script: {instanceID: 6234}
     - Class: 114
-      Script: {instanceID: 6222}
+      Script: {instanceID: 6238}
     - Class: 114
-      Script: {instanceID: 6346}
+      Script: {instanceID: 6362}
     - Class: 114
-      Script: {instanceID: 6486}
+      Script: {instanceID: 6502}
     - Class: 114
-      Script: {instanceID: 6568}
+      Script: {instanceID: 6584}
     - Class: 114
-      Script: {instanceID: 6574}
+      Script: {instanceID: 6590}
     - Class: 114
-      Script: {instanceID: 6698}
+      Script: {instanceID: 6714}
     - Class: 114
-      Script: {instanceID: 6738}
+      Script: {instanceID: 6754}
     - Class: 114
-      Script: {instanceID: 6784}
+      Script: {instanceID: 6800}
     - Class: 114
-      Script: {instanceID: 6786}
+      Script: {instanceID: 6802}
     - Class: 114
-      Script: {instanceID: 6870}
+      Script: {instanceID: 6886}
     - Class: 114
-      Script: {instanceID: 6982}
+      Script: {instanceID: 6998}
     - Class: 114
-      Script: {instanceID: 7146}
+      Script: {instanceID: 7162}
     - Class: 114
-      Script: {instanceID: 7280}
+      Script: {instanceID: 7296}
     - Class: 114
-      Script: {instanceID: 7298}
+      Script: {instanceID: 7314}
     - Class: 114
-      Script: {instanceID: 7336}
+      Script: {instanceID: 7352}
     - Class: 114
-      Script: {instanceID: 7518}
+      Script: {instanceID: 7534}
     - Class: 114
-      Script: {instanceID: 8036}
+      Script: {instanceID: 8052}
     - Class: 114
-      Script: {instanceID: 8314}
+      Script: {instanceID: 8330}
     - Class: 114
-      Script: {instanceID: 8360}
+      Script: {instanceID: 8376}
     - Class: 114
-      Script: {instanceID: 8630}
+      Script: {instanceID: 8646}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1692,5 +1691,5 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/ManVRScene.unity
-  playerPath: /run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C008%5D/Internal shared
-    storage/Download/gam2.apk
+  playerPath: /run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C022%5D/Internal shared
+    storage/Download/app.apk
