@@ -141,7 +141,7 @@
 78-->[:unityLibrary] /home/mentalab/Documents/GitHub/neurofeedback_vr/neurofeedback_vr/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:68:9-70:68
 79            android:name="unity.build-id"
 79-->[:unityLibrary] /home/mentalab/Documents/GitHub/neurofeedback_vr/neurofeedback_vr/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:69:13-42
-80            android:value="d62c518c-7bc1-483f-84c3-4215cb9ba5ba" />
+80            android:value="0c5a3301-00aa-48e7-afda-107e426ce849" />
 80-->[:unityLibrary] /home/mentalab/Documents/GitHub/neurofeedback_vr/neurofeedback_vr/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:70:13-65
 81        <meta-data
 81-->[:unityLibrary] /home/mentalab/Documents/GitHub/neurofeedback_vr/neurofeedback_vr/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:71:9-73:39
