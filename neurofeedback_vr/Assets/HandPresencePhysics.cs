@@ -27,6 +27,11 @@ public class HandPresencePhysics : MonoBehaviour
 
     }
 
+    public void EnableHandColliderDelay(float delay)
+    {
+	Invoke("EnableHandCollider", delay);
+    }
+
     public void DisableHandCollider()
     {
         foreach (var item in handColliders)

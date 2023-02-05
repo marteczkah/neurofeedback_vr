@@ -1,2 +1,50 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-fc4839e422236bc648479d02eafea067
+# Starting compiling UnityEngine.UI.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c58ad64a1d9b79973bf910292456753b
+# Starting compiling Unity.RenderPipelines.Universal.Shaders.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a867ddad87ef0b706bc255376281407a
+# Starting compiling Unity.Timeline.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a634c5697ec2f961e92857cce96773b4
+# Starting compiling Unity.TextMeshPro.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-18b240f3290c310dcbdc610b6eed5604
+# Starting compiling Unity.InputSystem.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-84da32e5e41ea701097b5061859c9f87
+# Starting compiling Unity.RenderPipelines.Core.ShaderLibrary.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2e263fb3344844cfca516c7c5c7b3c17
+# Starting compiling UnityEngine.SpatialTracking.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d6f2781d28fc9390cb6d3aef23b22b29
+# Starting compiling Unity.Mathematics.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e4286aa7747142db9a022dd5a5b7a3e5
+# Starting compiling Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-12630c0115583cd88ad2ed1422e63bcc
+# Starting compiling Unity.XR.Management.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ba833dddd47cbac4d921aacf491bf3ba
+# Starting compiling UnityEngine.XR.LegacyInputHelpers.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-832dd6fe731feedfdac2a7157848f970
+# Starting compiling Unity.RenderPipelines.Core.Runtime.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e5a62e68cf45f0c049a049c8dbc14d77
+# Starting compiling Unity.XR.CoreUtils.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-38831f2e5983f249ea447c8bff6912f6
+# Starting compiling Unity.XR.OpenXR.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-8be8f740235f979e78e391b657bcce80
+# Starting compiling Unity.XR.Oculus.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e9e8e10fac528e6d694d7a4741e0e7a1
+# Starting compiling Unity.XR.Interaction.Toolkit.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-bb9101e16c9a1498c9fd803c7c76ce92
+# Starting compiling Unity.XR.OpenXR.Features.MockRuntime.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-08e7fa7ba2ef4233da73156bf3ca9ccf
+# Starting compiling Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-8569e5037dbef9426ba5a4b1475a35aa
+# Starting compiling Unity.RenderPipeline.Universal.ShaderLibrary.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-03a0b7e6b759165bb80f1bcfca29efbc
+# Starting compiling Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-96b226d73f3a114c2902157b62fa5088
+# Starting compiling Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c24e054ee6dc71daead3c73983cc5a63
+# Starting compiling Unity.RenderPipelines.Universal.Runtime.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-44f37b55124f8d6499229343aece5ec2
+# Starting compiling Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d2bb440c8f62cb14cbfea6cb7a6cbefb
 # Starting compiling Assembly-CSharp.dll
-/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-57bcdbf60624cc4ce9aa2db73a524b99
+/home/mentalab/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4af939a58e9f8bafc88f2411dbadd70f
