@@ -367,3 +367,113 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1331,652764 seconds.
+  path: Assets/little-monster/source
+  artifactKey: Guid(48506cb026109ddb29edf111fcbf173b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/little-monster/source using Guid(48506cb026109ddb29edf111fcbf173b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f422eb1c1d5c1fa5d49183120acf4f38') in 0,002665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,035551 seconds.
+  path: Assets/little-monster/source/little monster.fbx.fbx
+  artifactKey: Guid(00220a88760f70dfb9e47021790649e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/little-monster/source/little monster.fbx.fbx using Guid(00220a88760f70dfb9e47021790649e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb1cb2fcea077e8090fdfd402cb7643') in 0,089687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42,462981 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1fccef896d48891410691dfde716e5') in 0,001708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23,698953 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(cfd005fbf6dd08e4db8e7620ac54ab82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(cfd005fbf6dd08e4db8e7620ac54ab82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1d5a0d967956a3b474c9a49a2f7f3d') in 0,015916 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10,47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76,4 MB.
+System memory in use after: 76,4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4248.
+Total: 9,320164 ms (FindLiveObjects: 0,391230 ms CreateObjectMapping: 0,224468 ms MarkObjects: 8,509263 ms  DeleteObjects: 0,194110 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 208,008473 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(cfd005fbf6dd08e4db8e7620ac54ab82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(cfd005fbf6dd08e4db8e7620ac54ab82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc82c360622b6cdb9d0f6fe197086c5') in 0,012231 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9,65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76,4 MB.
+System memory in use after: 76,5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4248.
+Total: 9,377536 ms (FindLiveObjects: 0,440511 ms CreateObjectMapping: 0,217406 ms MarkObjects: 8,483572 ms  DeleteObjects: 0,234551 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9,79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76,4 MB.
+System memory in use after: 76,5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4248.
+Total: 9,048996 ms (FindLiveObjects: 0,394516 ms CreateObjectMapping: 0,199113 ms MarkObjects: 8,260360 ms  DeleteObjects: 0,193559 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9,30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76,4 MB.
+System memory in use after: 76,5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4248.
+Total: 8,710668 ms (FindLiveObjects: 0,403483 ms CreateObjectMapping: 0,206712 ms MarkObjects: 7,935806 ms  DeleteObjects: 0,163632 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

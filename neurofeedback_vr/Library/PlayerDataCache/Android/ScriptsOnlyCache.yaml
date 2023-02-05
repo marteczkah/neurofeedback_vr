@@ -43,6 +43,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.ForwardRendererData
     - UnityEngine.Rendering.Universal.PostProcessData
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+    - UnityEngine.Rendering.Universal.UniversalAdditionalLightData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
@@ -248,6 +249,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7364}
     - Class: 114
       Script: {instanceID: 7546}
+    - Class: 114
+      Script: {instanceID: 7994}
     - Class: 114
       Script: {instanceID: 8064}
     - Class: 114
