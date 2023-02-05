@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - FireBulletOnActivate
     - HandPresence
     - HandPresencePhysics
     Unity.InputSystem.dll:
@@ -110,7 +111,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/hands.unity:
+    Assets/grab.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -253,6 +254,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8632}
     - Class: 114
       Script: {instanceID: 40104}
+    - Class: 114
+      Script: {instanceID: 77274}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1694,8 +1697,13 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HandPresencePhysics
+  - hash:
+      serializedVersion: 2
+      Hash: cd39114bde130f361aa1e7d5e1150caf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireBulletOnActivate
   platform: 13
   scenePathNames:
-  - Assets/hands.unity
-  playerPath: /run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C012%5D/Internal shared
-    storage/Download/app.apk
+  - Assets/grab.unity
+  playerPath: /home/mentalab/Documents/GitHub/neurofeedback_vr/neurofeedback_vr/app.apk
