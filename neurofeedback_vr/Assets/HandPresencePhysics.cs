@@ -6,11 +6,34 @@ public class HandPresencePhysics : MonoBehaviour
 {
     public Transform target;
     private Rigidbody rb;
+    private Collider[] handColliders;
+    public Renderer nonPhysicalHand; 
+
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        handColliders = GetComponentsInChildren<Collider>();
+        nonPhysicalHand.enabled = false;
+    }
+
+    public void EnableHandCollider()
+    {
+    	foreach (var item in handColliders)
+        {
+	   item.enabled = true;
+        }
+
+    }
+
+    public void DisableHandCollider()
+    {
+        foreach (var item in handColliders)
+        {
+	   item.enabled = false;
+        }
+
     }
 
     // Update is called once per frame

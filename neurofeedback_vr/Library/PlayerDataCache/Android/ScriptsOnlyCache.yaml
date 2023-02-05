@@ -131,6 +131,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
@@ -254,6 +256,8 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
@@ -1686,12 +1690,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+      Hash: f0c4e3f8cb1e0808ce8e479948957b30
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HandPresencePhysics
   platform: 13
   scenePathNames:
   - Assets/hands.unity
-  playerPath: /run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C008%5D/Internal shared
+  playerPath: /run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C012%5D/Internal shared
     storage/Download/app.apk
