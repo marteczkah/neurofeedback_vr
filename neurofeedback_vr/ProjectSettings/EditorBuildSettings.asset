@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/hands.unity
     guid: 59fc7a88163e9422ca29b0de02c1a0c3
-  - enabled: 1
+  - enabled: 0
     path: Assets/grab.unity
     guid: 8dc033b1c24423db9bcf12d6f7e99a41
+  - enabled: 1
+    path: Assets/pistols.unity
+    guid: 40b07972ac59356178388427a4ffadd5
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 193331eae2e0b4d0fa0f9dcebeddc5f6, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b4761fc410bebc0809ef2f75d7ba7fec, type: 2}

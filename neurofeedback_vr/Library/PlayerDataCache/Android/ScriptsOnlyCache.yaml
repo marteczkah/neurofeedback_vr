@@ -111,7 +111,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/grab.unity:
+    Assets/pistols.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -1705,5 +1705,5 @@ ScriptsOnlyBuild:
     className: FireBulletOnActivate
   platform: 13
   scenePathNames:
-  - Assets/grab.unity
+  - Assets/pistols.unity
   playerPath: /home/mentalab/Documents/GitHub/neurofeedback_vr/neurofeedback_vr/app.apk

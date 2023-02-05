@@ -13,7 +13,7 @@
     <meta-data android:name="unity.splash-enable" android:value="True" />
     <meta-data android:name="unity.launch-fullscreen" android:value="True" />
     <meta-data android:name="unity.allow-resizable-window" android:value="False" />
-    <meta-data android:name="unity.build-id" android:value="a65f215a-0848-4d18-965a-4760b7395eee" />
+    <meta-data android:name="unity.build-id" android:value="24dd8a2c-d255-4575-8e98-65799c78f612" />
   </application>
   <uses-feature android:glEsVersion="0x00030000" />
   <uses-permission android:name="android.permission.INTERNET" />
