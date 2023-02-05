@@ -1,5 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - HandPresence
+    - HandPresencePhysics
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputSettings
@@ -53,6 +56,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.XRController
     - UnityEngine.XR.Interaction.Toolkit.XRDirectInteractor
     - UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable
+    - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -106,7 +110,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/VR2.unity:
+    Assets/hands.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -126,8 +130,6 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -158,96 +160,104 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1686}
     - Class: 114
-      Script: {instanceID: 1708}
+      Script: {instanceID: 1692}
     - Class: 114
-      Script: {instanceID: 1864}
+      Script: {instanceID: 1848}
     - Class: 114
-      Script: {instanceID: 2548}
+      Script: {instanceID: 2532}
     - Class: 114
-      Script: {instanceID: 2656}
+      Script: {instanceID: 2640}
     - Class: 114
-      Script: {instanceID: 3434}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 3522}
+      Script: {instanceID: 3506}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3576}
     - Class: 114
-      Script: {instanceID: 3616}
+      Script: {instanceID: 3578}
     - Class: 114
-      Script: {instanceID: 3684}
+      Script: {instanceID: 3602}
     - Class: 114
-      Script: {instanceID: 3792}
+      Script: {instanceID: 3670}
     - Class: 114
-      Script: {instanceID: 3810}
+      Script: {instanceID: 3778}
     - Class: 114
-      Script: {instanceID: 3942}
+      Script: {instanceID: 3796}
     - Class: 114
-      Script: {instanceID: 4072}
+      Script: {instanceID: 3928}
     - Class: 114
-      Script: {instanceID: 4078}
+      Script: {instanceID: 4058}
     - Class: 114
-      Script: {instanceID: 4162}
+      Script: {instanceID: 4064}
     - Class: 114
-      Script: {instanceID: 4422}
+      Script: {instanceID: 4148}
     - Class: 114
-      Script: {instanceID: 4740}
+      Script: {instanceID: 4266}
     - Class: 114
-      Script: {instanceID: 5618}
+      Script: {instanceID: 4408}
     - Class: 114
-      Script: {instanceID: 5636}
+      Script: {instanceID: 4726}
     - Class: 114
-      Script: {instanceID: 5704}
+      Script: {instanceID: 5604}
     - Class: 114
-      Script: {instanceID: 5930}
+      Script: {instanceID: 5622}
     - Class: 114
-      Script: {instanceID: 5932}
+      Script: {instanceID: 5690}
     - Class: 114
-      Script: {instanceID: 5954}
+      Script: {instanceID: 5916}
     - Class: 114
-      Script: {instanceID: 6122}
+      Script: {instanceID: 5918}
     - Class: 114
-      Script: {instanceID: 6234}
+      Script: {instanceID: 5940}
     - Class: 114
-      Script: {instanceID: 6238}
+      Script: {instanceID: 6108}
     - Class: 114
-      Script: {instanceID: 6362}
+      Script: {instanceID: 6220}
     - Class: 114
-      Script: {instanceID: 6502}
+      Script: {instanceID: 6224}
     - Class: 114
-      Script: {instanceID: 6584}
+      Script: {instanceID: 6348}
     - Class: 114
-      Script: {instanceID: 6590}
+      Script: {instanceID: 6488}
     - Class: 114
-      Script: {instanceID: 6714}
+      Script: {instanceID: 6570}
     - Class: 114
-      Script: {instanceID: 6754}
+      Script: {instanceID: 6576}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 6700}
     - Class: 114
-      Script: {instanceID: 6886}
+      Script: {instanceID: 6740}
     - Class: 114
-      Script: {instanceID: 6998}
+      Script: {instanceID: 6786}
     - Class: 114
-      Script: {instanceID: 7162}
+      Script: {instanceID: 6872}
     - Class: 114
-      Script: {instanceID: 7296}
+      Script: {instanceID: 6984}
     - Class: 114
-      Script: {instanceID: 7352}
+      Script: {instanceID: 7148}
     - Class: 114
-      Script: {instanceID: 7534}
+      Script: {instanceID: 7282}
     - Class: 114
-      Script: {instanceID: 8052}
+      Script: {instanceID: 7338}
     - Class: 114
-      Script: {instanceID: 8330}
+      Script: {instanceID: 7520}
     - Class: 114
-      Script: {instanceID: 8376}
+      Script: {instanceID: 8038}
     - Class: 114
-      Script: {instanceID: 8646}
+      Script: {instanceID: 8316}
+    - Class: 114
+      Script: {instanceID: 8362}
+    - Class: 114
+      Script: {instanceID: 8632}
+    - Class: 114
+      Script: {instanceID: 40104}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
@@ -624,6 +634,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: UniversalAdditionalCameraData
+  - hash:
+      serializedVersion: 2
+      Hash: 92dc2a7f19e849f90ce4913bcaa56757
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HandPresence
   - hash:
       serializedVersion: 2
       Hash: 8d35f16c5022311c6f4d9432be73bfcf
@@ -1668,8 +1684,14 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HandPresencePhysics
   platform: 13
   scenePathNames:
-  - Assets/Scenes/VR2.unity
-  playerPath: /run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C026%5D/Internal shared
+  - Assets/hands.unity
+  playerPath: /run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C008%5D/Internal shared
     storage/Download/app.apk
