@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BulletLeft
+    - BulletRight
     - FireBulletOnActivate
     - HandPresence
     - HandPresencePhysics
@@ -259,6 +261,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8388}
     - Class: 114
       Script: {instanceID: 8658}
+    - Class: 114
+      Script: {instanceID: 109458}
+    - Class: 114
+      Script: {instanceID: 109472}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1706,6 +1712,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: cd39114bde130f361aa1e7d5e1150caf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BulletLeft
+  - hash:
+      serializedVersion: 2
+      Hash: cd39114bde130f361aa1e7d5e1150caf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BulletRight
   platform: 13
   scenePathNames:
   - Assets/pistols.unity

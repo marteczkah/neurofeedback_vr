@@ -1,5 +1,10 @@
 import zmq
+import numpy as np
+import time
 
+time.sleep(30)
+
+states = ["rest", "left", "right"]
 print('listening')
 context = zmq.Context()
 socket = context.socket(zmq.REP)
@@ -11,4 +16,6 @@ while True:
     copy = True
     track = False
     print("Message received: ", message)
-    socket.send("Hello back", flags, copy=copy, track=track)
+    cur_state = states[np.random.choice(np.arange(0, 3), p=[0.5, 0.25, 0.25])]
+    print(cur_state)
+    socket.send_string(cur_state, flags, copy=copy, track=track)

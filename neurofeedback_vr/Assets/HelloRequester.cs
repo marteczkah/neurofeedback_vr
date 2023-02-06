@@ -14,6 +14,8 @@ public class HelloRequester : RunAbleThread
     ///     Request Hello message to server and receive message back. Do it 10 times.
     ///     Stop requesting when Running=false.
     /// </summary>
+    public string current_msg = "rest";
+
     protected override void Run()
     {
         ForceDotNet.Force(); // this line is needed to prevent unity freeze after one use, not sure why yet
@@ -21,21 +23,23 @@ public class HelloRequester : RunAbleThread
         {
             client.Connect("tcp://192.168.0.115:5555");
 
-
-            Debug.Log("Sending Hello");
-            client.SendFrame("Hello");
-
-            string message = null;
-            bool gotMessage = false;
-            while (Running)
-            {
-                gotMessage = client.TryReceiveFrameString(out message); // this returns true if it's successful
-                if (gotMessage) break;
-
-                if (gotMessage) {
-			Debug.Log("Received " + message);
-		}
-            }
+	    while (Running) {
+              Debug.Log("Sending Request");
+              client.SendFrame("Request");
+              string message = null;
+              bool gotMessage = false;	
+	      current_msg = "rest";   
+	      
+	      while (Running) 
+	      {
+		    gotMessage = client.TryReceiveFrameString(out message); // this returns true if it's successful
+                    if (gotMessage) break;
+	      }
+	      if (gotMessage) {
+		    Debug.Log("Received " + message);
+		    current_msg = message;
+	      }
+	    }
         }
 
         NetMQConfig.Cleanup(); // this line is needed to prevent unity freeze after one use, not sure why yet
