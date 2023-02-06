@@ -8,18 +8,26 @@ public class FireBulletOnActivate : MonoBehaviour
     public GameObject bullet;
     public Transform spawnPoint;
     public float fireSpeed = 20;
+    private HelloRequester _helloRequester;
 
     // Start is called before the first frame update
     void Start()
     {
 	XRGrabInteractable grabbable = GetComponent<XRGrabInteractable>();
 	grabbable.activated.AddListener(FireBullet);
+	_helloRequester = new HelloRequester();
+        _helloRequester.Start();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private void OnDestroy()
+    {
+        _helloRequester.Stop();
     }
 
     public void FireBullet(ActivateEventArgs arg)

@@ -1709,5 +1709,5 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/pistols.unity
-  playerPath: /run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C008%5D/Internal shared
+  playerPath: /run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C010%5D/Internal shared
     storage/Download/app.apk
