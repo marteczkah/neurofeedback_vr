@@ -7,7 +7,7 @@ from scipy.ndimage import gaussian_filter1d
 import matplotlib.pyplot as plt
 
 s_rate = 250
-data = pd.read_csv("c_ExG.csv")
+data = pd.read_csv("../marta/lefthand1_ExG.csv")
 fft_1 = data[['ch4']].to_numpy()
 n_point = fft_1.shape[0]
 freq = s_rate * np.arange(int(n_point / 2)) / n_point

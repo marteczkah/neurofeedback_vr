@@ -1,10 +1,14 @@
 import zmq
 import numpy as np
 import time
+from classification_random import classification_random
 
-time.sleep(30)
+"""script that can be used to receive messages from the gameplay and
+send infromation back (without the EEG device)"""
 
-states = ["rest", "left", "right"]
+# waiting time I used before the reading of the messages during final presentation
+time.wait(30) 
+
 print('listening')
 context = zmq.Context()
 socket = context.socket(zmq.REP)
@@ -16,6 +20,5 @@ while True:
     copy = True
     track = False
     print("Message received: ", message)
-    cur_state = states[np.random.choice(np.arange(0, 3), p=[0.5, 0.25, 0.25])]
-    print(cur_state)
+    cur_state = classification_random()
     socket.send_string(cur_state, flags, copy=copy, track=track)
