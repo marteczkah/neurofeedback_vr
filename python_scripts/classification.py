@@ -2,6 +2,8 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from mne.decoding import CSP
 
 class Classification:
+    """Classification class that uses Common Spatial Pattern and 
+    Linear Dicriminant Analysis to predict the state of the EGG data."""
 
     def __init__(self, num_classes):
         # the classifier elements: lda and csp

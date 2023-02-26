@@ -1,3 +1,6 @@
+"""Script to acquire the data from the Mentalab's device and communicate it
+with Unity in a form of an array."""
+
 import explorepy
 from explorepy.stream_processor import TOPICS
 import time
@@ -7,17 +10,19 @@ import simplejson
 
 
 def my_exg_function(packet):
+    """A function that receives ExG packets and sends the acquired channels to Unity
+    upon request."""
     message = socket.recv()
     print("Message received: ", message)
-    """A function that receives ExG packets and does some operations on the data"""
     t_vector, exg_data = packet.get_data()
     print("Received an ExG packet with data shape: ", exg_data.shape)
+    #changing the data format to json for communication
     exg_list = exg_data.tolist()
     message_blob = simplejson.dumps(exg_list).encode(encoding="UTF-8")
     flags = 0
     copy = True
     track = False
-    print("Send #xG packet to Unity.")
+    print("Send ExG packet to Unity.")
     socket.send(message_blob, flags, copy=copy, track=track)
     time.sleep(0.125)
 

@@ -1,12 +1,11 @@
+"""script that can be used to receive messages from the gameplay and
+send infromation back (without the EEG device)"""
 import zmq
 import numpy as np
 import time
 from classification_random import classification_random
 
-"""script that can be used to receive messages from the gameplay and
-send infromation back (without the EEG device)"""
-
-# waiting time I used before the reading of the messages during final presentation
+# waiting time I used before sending messages during final presentation
 time.wait(30) 
 
 print('listening')
