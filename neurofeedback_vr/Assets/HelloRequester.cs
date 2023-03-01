@@ -1,4 +1,6 @@
-﻿using AsyncIO;
+﻿// class responsible for the communication with Python
+
+using AsyncIO;
 using NetMQ;
 using NetMQ.Sockets;
 using UnityEngine;
@@ -21,6 +23,7 @@ public class HelloRequester : RunAbleThread
         ForceDotNet.Force(); // this line is needed to prevent unity freeze after one use, not sure why yet
         using (RequestSocket client = new RequestSocket())
         {
+	    // change this depending on the IP of the Oculus device, the port can stay as 5555
             client.Connect("tcp://192.168.0.115:5555");
 
 	    while (Running) {
@@ -28,8 +31,9 @@ public class HelloRequester : RunAbleThread
               client.SendFrame("Request");
               string message = null;
               bool gotMessage = false;	
-	      current_msg = "rest";   
+	      current_msg = "rest"; // initializing the message as "rest" state
 	      
+	      // loop that checks if there is a message coming, breaks when there is a message
 	      while (Running) 
 	      {
 		    gotMessage = client.TryReceiveFrameString(out message); // this returns true if it's successful
@@ -37,7 +41,7 @@ public class HelloRequester : RunAbleThread
 	      }
 	      if (gotMessage) {
 		    Debug.Log("Received " + message);
-		    current_msg = message;
+		    current_msg = message; // saving the message so it can be read by outside files
 	      }
 	    }
         }

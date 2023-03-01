@@ -1,3 +1,5 @@
+// script for the movement of the hands -> setting up the physics
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

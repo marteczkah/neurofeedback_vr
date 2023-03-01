@@ -1,3 +1,5 @@
+// script for hand movement animation
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
