@@ -1,3 +1,5 @@
+// script for making the left bullet shoot based on the message sent from Python
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,15 +8,14 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class BulletLeft : MonoBehaviour
 {
     public GameObject bullet;
-    public Transform spawnPoint;
+    public Transform spawnPoint; // the transformation to make the bullet go from the end of the gun
     public float fireSpeed = 20;
     private HelloRequester _helloRequester;
 
     // Start is called before the first frame update
     void Start()
     {
-	//XRGrabInteractable grabbable = GetComponent<XRGrabInteractable>();
-	//grabbable.activated.AddListener(FireBullet);
+	// initializing HelloRequester class
 	_helloRequester = new HelloRequester();
         _helloRequester.Start();
     }
@@ -22,6 +23,7 @@ public class BulletLeft : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+	// bullet fired only when the message coming says left	
        if (_helloRequester.current_msg == "left") {
 	FireBullet();
 	print(_helloRequester.current_msg);
@@ -33,7 +35,7 @@ public class BulletLeft : MonoBehaviour
         _helloRequester.Stop();
     }
 
-    //public void FireBullet(ActivateEventArgs arg)
+    // function for firing the bullet
     public void FireBullet()
     {
 	GameObject spawnedBullet = Instantiate(bullet);
