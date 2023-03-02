@@ -737,3 +737,4 @@ Received Import Request.
   path: Assets/HelloRequester.cs
   artifactKey: Guid(a9f1f5f9970743f9a5870e2b4c2dc098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/HelloRequester.cs using Guid(a9f1f5f9970743f9a5870e2b4c2dc098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98b5e9f23d0fd9b3d9fade1a29635fb') in 0,000531 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
