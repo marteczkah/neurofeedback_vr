@@ -35,7 +35,7 @@ socket.bind("tcp://*:5555")
 exp_device = explorepy.Explore()
 
 # Connect to the Explore device using device bluetooth name or mac address
-exp_device.connect(device_name="Explore_8435")
+exp_device.connect(device_name="Explore_8435") # change the device name
 
 # Subscribe your function to the stream publisher
 exp_device.stream_processor.subscribe(callback=my_exg_function, topic=TOPICS.raw_ExG)
