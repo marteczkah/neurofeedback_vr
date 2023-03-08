@@ -14,6 +14,7 @@ def lsl_experiment(file_name, num_messages=50):
     """Function to send messages through LSL and save the time_stamp in milliseconds
     into a csv file.
     Params:
+        - file_name: name of the file where you want to save the experiment results
         - num_messages: number of messages you want to send for the experiment."""
     times = []
     msgs = []
@@ -33,9 +34,10 @@ def lsl_experiment(file_name, num_messages=50):
 
 
 def zeromq_experiment(file_name, num_messages=50):
-    """Function to send messages through LSL and save the time_stamp in milliseconds
+    """Function to send messages through ZeroMQ and save the time_stamp in milliseconds
     into a csv file.
     Params:
+        - file_name: name of the file where you want to save the experiment results
         - num_messages: number of messages you want to send for the experiment."""
     times = []
     msgs = []
