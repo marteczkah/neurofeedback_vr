@@ -6,7 +6,7 @@ import time
 from classification_random import classification_random
 
 # waiting time I used before sending messages during final presentation
-time.wait(30) 
+# time.wait(30) 
 
 print('listening')
 context = zmq.Context()
