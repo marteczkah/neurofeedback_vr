@@ -1,0 +1,11 @@
+explorepy
+simplejson
+pyzmq
+numpy
+pandas
+mne
+sklearn
+scikit-learn
+matplotlib
+pylsl
+zmq
