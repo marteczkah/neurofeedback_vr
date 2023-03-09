@@ -17,6 +17,8 @@ This README file includes information regarding running the project. You can fin
 - sklearn
 - scikit-learn
 - matplotlib
+- pylsl
+- zmq
 
 ## Basic Information and Setup
 
