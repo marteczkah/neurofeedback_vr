@@ -1,1 +1,1 @@
-C:\Users\Paulina\zeromq_vs_lsl
+C:\Users\Paulina\Documents\GitHub\neurofeedback_vr\zeromq_vs_lsl

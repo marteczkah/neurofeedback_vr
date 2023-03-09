@@ -522,3 +522,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StreamName: ClassificationResult
+  filePath: 
+  msgs: []
+  times: []

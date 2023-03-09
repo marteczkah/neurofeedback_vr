@@ -24,9 +24,14 @@ def main():
     outlet = StreamOutlet(info)
 
     print("now sending markers...")
+    i = 0
     while True:
         # pick a sample to send an wait for a bit
-        outlet.push_sample([classification_random()])
+        if i < 10:
+            outlet.push_sample([classification_random()])
+        else:
+            outlet.push_sample(["end"])
+        i += 1
         time.sleep(random.random() * 3)
 
 

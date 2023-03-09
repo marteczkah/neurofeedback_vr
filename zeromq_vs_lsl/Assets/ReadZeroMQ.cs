@@ -16,12 +16,12 @@ public class ReadZeroMQ : MonoBehaviour
         _helloRequester.Start();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-	// bullet fired only when the message coming says right	
-        Debug.Log(_helloRequester.current_msg);
-    }
+    // // Update is called once per frame
+    // void Update()
+    // {
+	// // bullet fired only when the message coming says right	
+    //     Debug.Log(_helloRequester.current_msg);
+    // }
 
     private void OnDestroy()
     {
