@@ -7,7 +7,7 @@ The goal of this project is to develop a virtual reality (VR) neurofeedback reha
 
 This README file includes information regarding running the project. You can find more information regarding the project in the [Wiki](https://github.com/marteczkah/neurofeedback_vr/wiki/Brain-Computer-Interface-with-Virtual-Reality-Neurofeedback).
 
-Additionally, we performed an experiment to compare the latency of ZeroMQ and LSL.
+Additionally, we performed an experiment to compare the latency of ZeroMQ and LSL. You can find all the information regarding the experiment and the results in the Wiki [here](https://github.com/marteczkah/neurofeedback_vr/wiki/ZeroMQ-vs-LSL-for-Python---Unity-Communication). 
 
 ## Requirements 
 - explorepy
